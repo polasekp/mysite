@@ -1,0 +1,61 @@
+# Compiled source #
+###################
+*.pyc
+static/
+*.mo
+
+# IDE files #
+#############
+.project
+.pydevproject
+.settings
+*.swp
+.idea
+var
+
+# Config files #
+################
+config/config
+
+# Logs #
+########
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+thumbs.db
+Thumbs.db
+
+# Coverage #
+############
+.coverage
+
+# Package managers #
+####################
+docs/node_modules/
+docs/.tmp/
+
+# Media #
+#########
+media/
+data/accept
+data/test
+
+# Nginx sites #
+###############
+docker/build/compose/nginx/default.conf
+data/local
+
+# Byte-compiled / optimized / DLL files #
+#########################################
+__pycache__/
+*.py[cod]
+
+# DB file #
+###########
+db.sqlite3
